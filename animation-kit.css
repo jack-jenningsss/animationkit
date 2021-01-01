@@ -16,7 +16,7 @@ body {
     height: 100%;
 }
 
-#zoom-blackout-aniation-primary-dot {
+#zoom-blackout-animation-primary-dot {
     position:relative;
     height: 10000px;
     width: 10000px;
@@ -149,3 +149,777 @@ body {
         }
 /* Fade Blackout Animation End */
 
+/* Typewriter Fullscreen loading Animation */
+
+
+#typewriter-fullscreen-loading-animation-parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+}
+#typewriter-fullscreen-loading-animation {
+    background-color: #000000;
+}
+#typewriter-fullscreen-loading-animation-0 {
+    position:relative;
+    background-color: #FFFFFF;
+    display: inline-block;
+    /*margin-left: 0.3%;*/
+    margin-left: 0px;
+    margin-top: 0.3%;
+    vertical-align: middle;
+    z-index: 2;
+    height: 60px;
+    width: 2.4px;
+    color: #FFFFFF;
+    opacity: 0;
+    animation: typewriter-fullscreen-loading-animation-BLINKY  10s;
+    -webkit-animation: typewriter-fullscreen-loading-animation-BLINKY  10s;
+    -moz-animation: typewriter-fullscreen-loading-animation-BLINKY  10s;
+    -o-animation: typewriter-fullscreen-loading-animation-BLINKY  10s;
+    -ms-animation: typewriter-fullscreen-loading-animation-BLINKY  10s;
+}
+#typewriter-fullscreen-loading-animation-0nm {
+    position:relative;
+    background-color: #FFFFFF;
+    display: inline-block;
+    /*margin-left: 0.3%;*/
+    margin-left: -6px;
+    margin-top: 0.3%;
+    vertical-align: middle;
+    z-index: 2;
+    height: 60px;
+    width: 2.4px;
+    color: #000000;
+    animation: typewriter-fullscreen-loading-animation-BLINKY-I 1.5s infinite ;
+}
+    @keyframes typewriter-fullscreen-loading-animation-BLINKY-I {
+    0% {opacity:0.5; color:#FFFFFF;}
+    100% {opacity:1; color:#FFFFFF;}
+    100% {opacity:0.25; color:#FFFFFF;}
+    }
+    
+    @-moz-keyframes typewriter-fullscreen-loading-animation-BLINKY-I {
+    0% {opacity:1;}
+    50%{opacity: 0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes typewriter-fullscreen-loading-animation-BLINKY-I {
+    0% {opacity:1;}
+    50%{opacity: 0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes typewriter-fullscreen-loading-animation-BLINKY-I {
+    0% {opacity:1;}
+    50%{opacity: 0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes typewriter-fullscreen-loading-animation-BLINKY-I {
+    0% {opacity:1;}
+    50%{opacity: 0;}
+    100% {opacity:1;}
+    }
+
+@keyframes typewriter-fullscreen-loading-animation-BLINKY {
+    0% {
+        margin-left: -285px;
+    }
+    19%{
+        margin-left: -285px;
+    }
+    20%{
+        margin-left: -248px;
+    }
+    24%{
+        margin-left: -248px;
+    }
+    25%{
+        margin-left: -201.33px;
+    }
+    29%{
+        margin-left: -201.33px;
+    }
+    30%{
+        margin-left: -157.99px;
+    }
+    34%{
+        margin-left: -157.99px;
+    }
+    35%{
+        margin-left: -114.65px;
+    }
+    39%{
+        margin-left: -114.65px;
+    }
+    40% {
+        margin-left: -91.29px;
+    }
+    44%{
+        margin-left: -91.29px;
+    }
+    45%{
+        margin-left: -47.95px;
+    }
+    49%{
+        margin-left: -47.95px;
+    }
+    50%{
+        margin-left: 0px;
+    }
+}
+
+
+@-moz-keyframes typewriter-fullscreen-loading-animation-BLINKY {
+    0% {
+        margin-left: -285px;
+    }
+    5%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    5%{
+        opacity: 0;
+    }
+    19%{
+        margin-left: -285px;
+        opacity: 1;
+    }
+    20%{
+        margin-left: -248px;
+        opacity: 1;
+    }
+    24%{
+        margin-left: -248px;
+        opacity: 0;
+    }
+    25%{
+        margin-left: -201.33px;
+        opacity: 0;
+    }
+    29%{
+        margin-left: -201.33px;
+        opacity: 1;
+    }
+    30%{
+        margin-left: -157.99px;
+        opacity: 1;
+    }
+    34%{
+        margin-left: -157.99px;
+        opacity: 0;
+    }
+    35%{
+        margin-left: -114.65px;
+        opacity: 0;
+    }
+    39%{
+        margin-left: -114.65px;
+        opacity: 1;
+    }
+    40% {
+        margin-left: -91.29px;
+        opacity: 1;
+    }
+    44%{
+        margin-left: -91.29px;
+        opacity: 0;
+    }
+    45%{
+        margin-left: -47.95px;
+        opacity: 0;
+    }
+    49%{
+        margin-left: -47.95px;
+        opacity: 1;
+    }
+    50%{
+        margin-left: 0px;
+        opacity: 1;
+    }
+    55%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 0;
+    }
+    100% {
+        margin-left: -0px;
+        opacity: 1;
+    }
+
+}
+
+@-webkit-keyframes typewriter-fullscreen-loading-animation-BLINKY {
+    0% {
+        margin-left: -285px;
+    }
+    5%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    5%{
+        opacity: 0;
+    }
+    19%{
+        margin-left: -285px;
+        opacity: 1;
+    }
+    20%{
+        margin-left: -248px;
+        opacity: 1;
+    }
+    24%{
+        margin-left: -248px;
+        opacity: 0;
+    }
+    25%{
+        margin-left: -201.33px;
+        opacity: 0;
+    }
+    29%{
+        margin-left: -201.33px;
+        opacity: 1;
+    }
+    30%{
+        margin-left: -157.99px;
+        opacity: 1;
+    }
+    34%{
+        margin-left: -157.99px;
+        opacity: 0;
+    }
+    35%{
+        margin-left: -114.65px;
+        opacity: 0;
+    }
+    39%{
+        margin-left: -114.65px;
+        opacity: 1;
+    }
+    40% {
+        margin-left: -91.29px;
+        opacity: 1;
+    }
+    44%{
+        margin-left: -91.29px;
+        opacity: 0;
+    }
+    45%{
+        margin-left: -47.95px;
+        opacity: 0;
+    }
+    49%{
+        margin-left: -47.95px;
+        opacity: 1;
+    }
+    50%{
+        margin-left: 0px;
+        opacity: 1;
+    }
+    55%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 0;
+    }
+    100% {
+        margin-left: -0px;
+        opacity: 1;
+    }
+}
+
+
+@-o-keyframes typewriter-fullscreen-loading-animation-BLINKY {
+    0% {
+        margin-left: -285px;
+    }
+    5%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    5%{
+        opacity: 0;
+    }
+    19%{
+        margin-left: -285px;
+        opacity: 1;
+    }
+    20%{
+        margin-left: -248px;
+        opacity: 1;
+    }
+    24%{
+        margin-left: -248px;
+        opacity: 0;
+    }
+    25%{
+        margin-left: -201.33px;
+        opacity: 0;
+    }
+    29%{
+        margin-left: -201.33px;
+        opacity: 1;
+    }
+    30%{
+        margin-left: -157.99px;
+        opacity: 1;
+    }
+    34%{
+        margin-left: -157.99px;
+        opacity: 0;
+    }
+    35%{
+        margin-left: -114.65px;
+        opacity: 0;
+    }
+    39%{
+        margin-left: -114.65px;
+        opacity: 1;
+    }
+    40% {
+        margin-left: -91.29px;
+        opacity: 1;
+    }
+    44%{
+        margin-left: -91.29px;
+        opacity: 0;
+    }
+    45%{
+        margin-left: -47.95px;
+        opacity: 0;
+    }
+    49%{
+        margin-left: -47.95px;
+        opacity: 1;
+    }
+    50%{
+        margin-left: 0px;
+        opacity: 1;
+    }
+    55%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 0;
+    }
+    100% {
+        margin-left: -0px;
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes typewriter-fullscreen-loading-animation-BLINKY {
+    0% {
+        margin-left: -285px;
+    }
+    5%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    5%{
+        opacity: 0;
+    }
+    19%{
+        margin-left: -285px;
+        opacity: 1;
+    }
+    20%{
+        margin-left: -248px;
+        opacity: 1;
+    }
+    24%{
+        margin-left: -248px;
+        opacity: 0;
+    }
+    25%{
+        margin-left: -201.33px;
+        opacity: 0;
+    }
+    29%{
+        margin-left: -201.33px;
+        opacity: 1;
+    }
+    30%{
+        margin-left: -157.99px;
+        opacity: 1;
+    }
+    34%{
+        margin-left: -157.99px;
+        opacity: 0;
+    }
+    35%{
+        margin-left: -114.65px;
+        opacity: 0;
+    }
+    39%{
+        margin-left: -114.65px;
+        opacity: 1;
+    }
+    40% {
+        margin-left: -91.29px;
+        opacity: 1;
+    }
+    44%{
+        margin-left: -91.29px;
+        opacity: 0;
+    }
+    45%{
+        margin-left: -47.95px;
+        opacity: 0;
+    }
+    49%{
+        margin-left: -47.95px;
+        opacity: 1;
+    }
+    50%{
+        margin-left: 0px;
+        opacity: 1;
+    }
+    55%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 0;
+    }
+    100% {
+        margin-left: -0px;
+        opacity: 1;
+    }
+}
+#typewriter-fullscreen-loading-animation-1 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 60px;
+    margin-top: 0px;
+
+
+    animation: typewriter-fullscreen-loading-animation-ANI  2s;
+    -webkit-animation: typewriter-fullscreen-loading-animation-ANI  2s;
+    -moz-animation: typewriter-fullscreen-loading-animation-ANI  2s;
+    -o-animation: typewriter-fullscreen-loading-animation-ANI  2s;
+    -ms-animation: typewriter-fullscreen-loading-animation-ANI  2s;
+}
+#typewriter-fullscreen-loading-animation-2 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 60px;
+    margin-top: 0px;
+
+    animation: typewriter-fullscreen-loading-animation-ANI  2.5s;
+    -webkit-animation: typewriter-fullscreen-loading-animation-ANI  2.5s;
+    -moz-animation: typewriter-fullscreen-loading-animation-ANI  2.5s;
+    -o-animation: typewriter-fullscreen-loading-animation-ANI  2.5s;
+    -ms-animation: typewriter-fullscreen-loading-animation-ANI  2.5s;
+}
+#typewriter-fullscreen-loading-animation-3 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 60px;
+    margin-top: 0px;
+
+    animation: typewriter-fullscreen-loading-animation-ANI  3s;
+    -webkit-animation: typewriter-fullscreen-loading-animation-ANI  3s;
+    -moz-animation: typewriter-fullscreen-loading-animation-ANI  3s;
+    -o-animation: typewriter-fullscreen-loading-animation-ANI  3s;
+    -ms-animation: typewriter-fullscreen-loading-animation-ANI  3s;
+}
+#typewriter-fullscreen-loading-animation-4 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 60px;
+    margin-top: 0px;
+
+    animation: typewriter-fullscreen-loading-animation-ANI  3.5s;
+    -webkit-animation: typewriter-fullscreen-loading-animation-ANI  3.5s;
+    -moz-animation: typewriter-fullscreen-loading-animation-ANI  3.5s;
+    -o-animation: typewriter-fullscreen-loading-animation-ANI  3.5s;
+    -ms-animation: typewriter-fullscreen-loading-animation-ANI  3.5s;
+}
+#typewriter-fullscreen-loading-animation-5 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 60px;
+    margin-top: 0px;
+
+    animation: typewriter-fullscreen-loading-animation-ANI  4s;
+    -webkit-animation: typewriter-fullscreen-loading-animation-ANI  4s;
+    -moz-animation: typewriter-fullscreen-loading-animation-ANI  4s;
+    -o-animation: typewriter-fullscreen-loading-animation-ANI  4s;
+    -ms-animation: typewriter-fullscreen-loading-animation-ANI  4s;
+}
+#typewriter-fullscreen-loading-animation-6 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 60px;
+    margin-top: 0px;
+
+    animation: typewriter-fullscreen-loading-animation-ANI  4.5s;
+    -webkit-animation: typewriter-fullscreen-loading-animation-ANI  4.5s;
+    -moz-animation: typewriter-fullscreen-loading-animation-ANI  4.5s;
+    -o-animation: typewriter-fullscreen-loading-animation-ANI  4.5s;
+    -ms-animation: typewriter-fullscreen-loading-animation-ANI  4.5s;
+}
+
+
+#typewriter-fullscreen-loading-animation-7 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 60px;
+    margin-top: 0px;
+
+    animation: typewriter-fullscreen-loading-animation-ANI  5s;
+    -webkit-animation: typewriter-fullscreen-loading-animation-ANI  5s;
+    -moz-animation: typewriter-fullscreen-loading-animation-ANI  5s;
+    -o-animation: typewriter-fullscreen-loading-animation-ANI  5s;
+    -ms-animation: typewriter-fullscreen-loading-animation-ANI  5s;
+}
+
+    @keyframes typewriter-fullscreen-loading-animation-ANI {
+        0% {opacity:0;
+            visibility: visible;}
+        99% {opacity:0;
+            visibility: visible;}
+        100% {opacity:1;
+            visibility: visible;}
+        }
+    
+    @-moz-keyframes typewriter-fullscreen-loading-animation-ANI {
+        0% {opacity:0; 
+            visibility: visible;}
+        99% {opacity:0;
+            visibility: visible;}
+        100% {opacity:1;
+            visibility: visible;}
+        }
+    
+    @-webkit-keyframes typewriter-fullscreen-loading-animation-ANI {
+        0% {opacity:0;
+            visibility: visible;}
+        99% {opacity:0;
+            visibility: visible;}
+        100% {opacity:1;
+            visibility: visible;}
+        }
+    
+    
+    @-o-keyframes typewriter-fullscreen-loading-animation-ANI {
+        0% {opacity:0;
+            visibility: visible;}
+        99% {opacity:0;
+            visibility: visible;}
+        100% {opacity:1;
+            visibility: visible;}
+        }
+    
+    @-ms-keyframes typewriter-fullscreen-loading-animation-ANI {
+        0% {opacity:0;
+            visibility: visible;}
+        99% {opacity:0;
+            visibility: visible;}
+        100% {opacity:1;
+            visibility: visible;}
+        }
+
+/* Typewriter Fullscreen loading Animation End*/
+
+
+/* Bouncy Loader Fullscreen loading Animation */
+#bouncy-fullscreen-loading-animation {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+#bouncy-fullscreen-loading-animation-1 {
+    animation: bouncyballs ease 8s 3s infinite;
+    -webkit-animation: bouncyballs ease 8s 1s infinite;
+    -moz-animation: bouncyballs ease 8s 1s infinite;
+    -o-animation: bouncyballs ease 8s 1s infinite;
+    -ms-animation: bouncyballs ease 8s 1s infinite;
+    position:relative;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 20px 20px;
+    vertical-align: middle;
+    z-index: 2;
+    float: left;
+    margin: 5px;
+}
+#bouncy-fullscreen-loading-animation-2 {
+    animation: bouncyballs ease 10s 2s infinite;
+    -webkit-animation: bouncyballs ease 10s 2s infinite;
+    -moz-animation: bouncyballs ease 10s 2s infinite;
+    -o-animation: bouncyballs ease 10s 2s infinite;
+    -ms-animation: bouncyballs ease 10s 2s infinite;
+    position:relative;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 20px 20px;
+    vertical-align: middle;
+    z-index: 2;
+    float: left;
+    margin: 5px;
+}
+#bouncy-fullscreen-loading-animation-3 {
+    animation: bouncyballs ease 13s 3s infinite;
+    -webkit-animation: bouncyballs ease 13s 3s infinite;
+    -moz-animation: bouncyballs ease 13s 3s infinite;
+    -o-animation: bouncyballs ease 13s 3s infinite;
+    -ms-animation: bouncyballs ease 13s 3s infinite;
+    
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 20px 20px;
+    vertical-align: middle;
+    z-index: 2;
+    float: left;
+    margin: 5px;
+}
+
+#bouncy-fullscreen-loading-animation-t {
+    font-family: 'Roboto';
+    color: #ffffff;
+    margin-top:30%;
+    position:fixed;
+}
+
+
+    @keyframes bouncyballs {
+    0% {
+        margin-top: 5vh;
+    }
+    50% {
+        margin-top: 35vh;
+    }
+    100% {
+      margin-top: 5vh;  
+    }
+    }
+    
+    
+    @-moz-keyframes bouncyballs {
+    0% {
+        margin-top: 5vh;
+    }
+    50% {
+        margin-top: 35vh;
+    }
+    100% {
+      margin-top: 5vh;  
+    }
+    }
+    
+    
+    @-webkit-keyframes bouncyballs {
+    0% {
+        margin-top: 5vh;
+    }
+    50% {
+        margin-top: 35vh;
+    }
+    100% {
+      margin-top: 5vh;  
+    }
+    }
+    
+    
+    @-o-keyframes bouncyballs {
+    0% {
+        margin-top: 5vh;
+    }
+    50% {
+        margin-top: 35vh;
+    }
+    100% {
+      margin-top: 5vh;  
+    }
+    }
+    
+    
+    @-ms-keyframes bouncyballs {
+    0% {
+        margin-top: 5vh;
+    }
+    50% {
+        margin-top: 35vh;
+    }
+    100% {
+      margin-top: 5vh;  
+    }
+    }
