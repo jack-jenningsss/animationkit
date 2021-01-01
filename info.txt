@@ -1,0 +1,7 @@
+Animation Kit 0.0.1
+Created by Jack Mitchell on 01/01/2021.
+Copyright © 2021 Jack Mitchell. All rights reserved.
+
+A very basic HTML/CSS Web App Animation Suite
+
+The HTML Files include the code necessary to use the selected animation type
